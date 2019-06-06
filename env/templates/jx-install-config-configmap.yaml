@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAKQUyUMXHSEAkB9i6g0hDfwwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMzM0ZmM1ZjMtOGUwMy00OTE5LTgzODUtYTgwMTNiNjBlMmQw
+    MB4XDTE5MDYwNjE2MzYzOVoXDTI0MDYwNDE3MzYzOVowLzEtMCsGA1UEAxMkMzM0
+    ZmM1ZjMtOGUwMy00OTE5LTgzODUtYTgwMTNiNjBlMmQwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAukFQ6g+n+y5ni/6v/OI/XdacHtHwhrO0+uaQCvb1
+    YiDduVclQ6JR6WWeDsxsBcQSxfas64yNISr0rs/KHWpMVaLc+GRN4CEh05uFbweK
+    AxcLUZZ/35mj/0IQIRjTAdAwRtg8U1pbh0ZHY4giZ8eIewYROHhqBfMEDsIytgDw
+    gtH7bLyQvW9aoWc5F0pDmI3cG2pMALB2NtXM/HcnSNmwSiBr3en3B+OZmViSISBH
+    tb4ShOOQmouenWc0faUSn5STQ/26vxeIazEHt1ZopF69NtF5/X7ScEruR1NfPmy7
+    tEKXFb1uyr14EtfJ2uogug6Z1KS7umNluwqABGiRYkwaAwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    jfbqYoVhJFV/Jusx9kOfZP1dlhwHcJ1EgR76CCYjkyNdfIgdKdQyKEj72MY3FTmu
+    /qEChObJkHfTWwaEzngh47vKQWnctiDsb70WSDrKn7dwDH551vzz26Vk0imddZHE
+    eiVs3cVJcpOn/x4imTJKGmkItEjavZvZxwaz6INXr9i0ia+Yj/tMGr86lOhgyozs
+    chE14nOHaJYJToYcXk6PnKkiO6oqd8HXbuiCTbPy8/15DavGkGW0yA+GgXXnEd8V
+    bAFGSTdr+b7SUrVmJpM0TOmTRUJJTbKO5Wo6x4Re5tCmxrI1ec4v0eenCGVwNqxB
+    KVQB5wy+TTgzPKRiwUooYQ==
+    -----END CERTIFICATE-----
+  clusterName: marko-umek
+  jx-install-version: 2.0.230
+  kubeProvider: gke
+  projectID: black-burner-242917
+  region: ""
+  secretsLocation: vault
+  server: https://35.242.142.210
+  systemVaultName: jx-vault-marko-umek
+  zone: europe-west2-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
